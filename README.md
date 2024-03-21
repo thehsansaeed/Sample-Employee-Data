@@ -36,7 +36,7 @@ ________________________________________________________________________________
 This API provides endpoints to retrieve employee data from a CSV file. It supports basic authentication for login.
 
 ## Base URL
-The base URL for this API is `[https://ahsansaeed.pythonanywhere.com/](https://ahsansaeed.pythonanywhere.com)`
+The base URL for this API is [https://ahsansaeed.pythonanywhere.com](https://ahsansaeed.pythonanywhere.com)
 
 ## Authentication
 - **Basic Authentication**: Use username and password.
