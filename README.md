@@ -21,6 +21,116 @@ API Testing: Use the data to test API endpoints that handle employee information
 Data Analysis: Analyze the dataset to derive insights into employee demographics, salary trends, job tenure, and more.
 Research: Utilize the dataset as a sample for research or academic projects related to human resources, employment, or demographic studies.
 
+
+
+______________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+# API Testing Guidelines
+
+## Overview
+This API provides endpoints to retrieve employee data from a CSV file. It supports basic authentication for login.
+
+## Base URL
+The base URL for this API is `http://your-api-domain.com`
+
+## Authentication
+- **Basic Authentication**: Use username and password.
+- **Bearer Token Authentication**: Use an API key.
+
+## Endpoints
+
+### 1. Get Server Status
+
+- **URL**: `/status`
+- **Method**: GET
+- **Description**: Retrieves the server status to confirm that the API is up and running.
+
+### 2. Get All Employee Data
+
+- **URL**: `/employees`
+- **Method**: GET
+- **Description**: Retrieves all employee data available in the CSV file.
+
+### 3. Get Specific Employee Data
+
+- **URL**: `/employee`
+- **Method**: GET
+- **Description**: Retrieves specific employee data based on provided query parameters.
+
+### 4. Filter Employees Based on Query Parameters
+
+- **URL**: `/employee`
+- **Method**: GET
+- **Description**: Filters employee data based on provided query parameters.
+
+#### Query Parameters
+- `id`: Filter employees by their ID. Example: `/employee?id=1`
+- Add more query parameters as needed.
+
+### Authentication Endpoint
+
+- **URL**: `/login`
+- **Method**: GET
+- **Description**: Login endpoint requiring authentication.
+
+## Authentication
+
+- **Basic Authentication**: Provide username and password. Username: `admin` and Password: `admin123@`
+- **Bearer Token Authentication**: Provide Bearer Token in the request headers. `as-tT4RzY9mZKpG7qBwxZydKpYdS3vFjJkNpQsT1uWxZy`
+
+### Using Parameters
+- To use parameters, append them to the endpoint URL in the format `?parameter=value`.
+- For example: `/employee?id=1`
+
+### Using Multiple Parameters
+- To use multiple parameters, separate them with `&` in the URL.
+- For example: `/employee?id=1&department=HR`
+
+### Developer Contact Information
+Ahsan Saeed
+- [Linkedin](https://www.linkedin.com/in/ahsensaeed/)
+- [Github](https://github.com/thehsansaeed)
+- [Microsoft Marketplace](https://marketplace.visualstudio.com/publishers/ahsansaeed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Usage
 You can clone this repository or download the dataset directly for use in your projects. Ensure to comply with any licensing or usage requirements specified in this repository.
 
@@ -28,5 +138,5 @@ You can clone this repository or download the dataset directly for use in your p
 Contributions to enhance or expand this dataset are welcome. If you have additional data to contribute or suggestions for improvement, feel free to open an issue or submit a pull request.
 
 # License
-The dataset in this repository is provided under the [MIT License](https://github.com/thehsansaeed/Sample-Employee-Data/blob/main/LICENSE). Please refer to the LICENSE file for more information.
+The dataset in this repository is provided under the [MIT License](https://github.com/thehsansaeed/Sample-Employee-Data/blob/main/LICENSE).
 
