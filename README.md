@@ -38,10 +38,6 @@ This API provides endpoints to retrieve employee data from a CSV file. It suppor
 ## Base URL
 The base URL for this API is [https://ahsansaeed.pythonanywhere.com](https://ahsansaeed.pythonanywhere.com)
 
-## Authentication
-- **Basic Authentication**: Use username and password.
-- **Bearer Token Authentication**: Use an API key.
-
 ## Endpoints
 
 ### 1. Get Server Status
@@ -81,7 +77,13 @@ The base URL for this API is [https://ahsansaeed.pythonanywhere.com](https://ahs
 - **Method**: POST
 - **Description**: Login endpoint requiring authentication.
 
+
 ## Authentication
+- **Basic Authentication**: Use username and password.
+- **Bearer Token Authentication**: Use an API key.
+
+
+## Credentials 
 
 - **Basic Authentication**: Provide username and password. Username: `admin` and Password: `admin123@`
 - **Bearer Token Authentication**: Provide Bearer Token in the request headers. `as-tT4RzY9mZKpG7qBwxZydKpYdS3vFjJkNpQsT1uWxZy`
