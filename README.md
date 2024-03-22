@@ -69,7 +69,7 @@ The base URL for this API is [https://ahsansaeed.pythonanywhere.com](https://ahs
 
 ### Using Multiple Parameters
 - To use multiple parameters, separate them with `&` in the URL.
-- For example: `/employee?id=1&department=HR`
+- For example: `/employee?id=1&jobcat=Manager`
 
 ### Authentication Endpoint
 
