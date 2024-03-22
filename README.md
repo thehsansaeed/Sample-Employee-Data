@@ -55,6 +55,7 @@ The base URL for this API is [https://ahsansaeed.pythonanywhere.com](https://ahs
 - **URL**: `/employees`
 - **Method**: GET
 - **Description**: Retrieves all employee data available in the CSV file.
+- **Parameter Required**. Example: `/employee?id=1` or `/employee?id=1.0`
 
 ### 3. Get Specific Employee Data
 
