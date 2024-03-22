@@ -75,7 +75,7 @@ The base URL for this API is [https://ahsansaeed.pythonanywhere.com](https://ahs
 ### Authentication Endpoint
 
 - **URL**: `/login`
-- **Method**: GET
+- **Method**: POST
 - **Description**: Login endpoint requiring authentication.
 
 ## Authentication
