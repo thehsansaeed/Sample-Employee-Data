@@ -63,10 +63,17 @@ The base URL for this API is [https://ahsansaeed.pythonanywhere.com](https://ahs
 - **Description**: Retrieves specific employee data based on provided query parameters.
 - **Parameter Required**. Example: `/employee?id=1` or `/employee?id=1.0`
 
-
 #### Query Parameters
 - `id`: Filter employees by their ID. Example: `/employee?id=1`
 - Add more query parameters as needed.
+
+### Using Parameters
+- To use parameters, append them to the endpoint URL in the format `?parameter=value`.
+- For example: `/employee?id=1`
+
+### Using Multiple Parameters
+- To use multiple parameters, separate them with `&` in the URL.
+- For example: `/employee?id=1&department=HR`
 
 ### Authentication Endpoint
 
@@ -79,13 +86,6 @@ The base URL for this API is [https://ahsansaeed.pythonanywhere.com](https://ahs
 - **Basic Authentication**: Provide username and password. Username: `admin` and Password: `admin123@`
 - **Bearer Token Authentication**: Provide Bearer Token in the request headers. `as-tT4RzY9mZKpG7qBwxZydKpYdS3vFjJkNpQsT1uWxZy`
 
-### Using Parameters
-- To use parameters, append them to the endpoint URL in the format `?parameter=value`.
-- For example: `/employee?id=1`
-
-### Using Multiple Parameters
-- To use multiple parameters, separate them with `&` in the URL.
-- For example: `/employee?id=1&department=HR`
 
 # Usage
 You can clone this repository or download the dataset directly for use in your projects. Ensure to comply with any licensing or usage requirements specified in this repository.
